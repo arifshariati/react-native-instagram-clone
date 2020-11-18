@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   name: {
     alignSelf: 'center',
     fontWeight: 'bold',
-    color: '#4f4f4f',
+    color: 'gray',
   },
 });
 

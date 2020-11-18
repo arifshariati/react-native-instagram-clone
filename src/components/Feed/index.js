@@ -23,8 +23,8 @@ const post = [
   {
     user: {
       imageUri:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubsSzNkxrpoq1UwKZpPs9qfmd04fl4pFRZg&usqp=CAU',
-      name: 'Pari',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfps6LC8MjUgp1P24xY2c26oizHVu6n-1DyQ&usqp=CAU',
+      name: 'Anushka',
     },
     imageUri:
       'https://images.unsplash.com/photo-1605606228673-aceb923dd4fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
@@ -35,8 +35,8 @@ const post = [
   {
     user: {
       imageUri:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubsSzNkxrpoq1UwKZpPs9qfmd04fl4pFRZg&usqp=CAU',
-      name: 'Pari',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9o5INl5Il_WCYOpky60-G_vKfZB_PwSogug&usqp=CAU',
+      name: 'Selfie',
     },
     imageUri:
       'https://images.unsplash.com/photo-1605557626613-748697e50913?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',

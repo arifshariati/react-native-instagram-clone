@@ -1,14 +1,14 @@
 import React from 'react';
-import {View} from 'react-native';
+import {SafeAreaView} from 'react-native';
 
 //components
 import Feed from '../../components/Feed';
 
 const HomeScreen = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Feed />
-    </View>
+    </SafeAreaView>
   );
 };
 export default HomeScreen;

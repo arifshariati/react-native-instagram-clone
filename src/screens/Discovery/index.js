@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {SafeAreaView, Text} from 'react-native';
 
 const Discovery = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Discovery Screen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 export default Discovery;

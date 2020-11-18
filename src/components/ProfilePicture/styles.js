@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   container: {
     borderRadius: 45,
     borderWidth: 2,
-    borderColor: '#DD2A7B',
+    borderColor: 'tomato',
     justifyContent: 'center',
     margin: 5,
   },

@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {SafeAreaView, Text} from 'react-native';
 
 const Notifications = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Notifications Screen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 

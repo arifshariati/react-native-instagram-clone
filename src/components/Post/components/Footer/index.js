@@ -29,17 +29,17 @@ const Footer = ({likesCount: likesCountProps, caption, postedAt}) => {
         <View style={styles.leftIcons}>
           <TouchableWithoutFeedback onPress={handleLike}>
             {isLiked ? (
-              <ADIcon name="hearto" size={25} color="#4f4f4f" />
+              <ADIcon name="hearto" size={25} color="gray" />
             ) : (
-              <ADIcon name="heart" size={25} color="#DD2a7B" />
+              <ADIcon name="heart" size={25} color="tomato" />
             )}
           </TouchableWithoutFeedback>
 
-          <FontistoIcon name="comment" size={23} color="#4f4f4f" />
-          <IonIcon name="paper-plane-outline" size={25} color="#4f4f4f" />
+          <FontistoIcon name="comment" size={23} color="gray" />
+          <IonIcon name="paper-plane-outline" size={25} color="gray" />
         </View>
         <View style={styles.rightIcons}>
-          <FAIcon name="bookmark-o" size={25} color="#4f4f4f" />
+          <FAIcon name="bookmark-o" size={25} color="gray" />
         </View>
       </View>
       <View>

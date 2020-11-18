@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     margin: 3,
   },
   postedAt: {
-    color: '#4f4f4f',
+    color: 'gray',
     margin: 3,
   },
 });
