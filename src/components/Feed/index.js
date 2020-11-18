@@ -2,9 +2,8 @@ import React from 'react';
 import {FlatList} from 'react-native';
 
 //components
-import Stories from '../Stories';
+import UserStoriesPreview from '../UserStoriesPreview';
 import Post from '../Post';
-import Story from '../Story';
 
 //mock data
 const post = [
@@ -51,7 +50,7 @@ const Feed = () => {
       data={post}
       keyExtractor={({imageUri}) => imageUri}
       renderItem={({item}) => <Post post={item} />}
-      ListHeaderComponent={Stories}
+      ListHeaderComponent={UserStoriesPreview}
     />
   );
 };

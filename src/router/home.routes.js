@@ -32,7 +32,7 @@ const HomeRoutes = () => {
             <Image
               source={instagramLogo}
               resizeMode="contain"
-              style={{width: 120}}
+              style={{width: 120, height: 50}}
             />
           ),
           headerRight: () => (
