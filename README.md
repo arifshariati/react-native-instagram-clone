@@ -1,6 +1,6 @@
 # react-native-instagram-clone
 
-react native instagram clone 🔥
+react native instagram clone 🔥 designed and developed in react-native and AWS amplify. This project does not cover entire functionalities of Instagram, rather focuses on few basic features.
 
 ## Note
 
