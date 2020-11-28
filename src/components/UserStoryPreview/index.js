@@ -10,7 +10,7 @@ import styles from './styles';
 const UserStoryPreview = (props) => {
   const {
     story: {
-      user: {id, imageUri, name},
+      user: {id, image, name},
     },
   } = props;
   const navigation = useNavigation();
@@ -21,7 +21,7 @@ const UserStoryPreview = (props) => {
 
   return (
     <TouchableOpacity onPress={onPress}>
-      <ProfilePicture uri={imageUri} />
+      <ProfilePicture uri={image} />
       <Text style={styles.name}>{name}</Text>
     </TouchableOpacity>
   );

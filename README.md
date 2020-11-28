@@ -4,7 +4,7 @@ react native instagram clone 🔥 designed and developed in react-native and AWS
 
 ## Note
 
-This project is not completed yet! I shall resume working on back-end once i am ready with AWS account activation.
+Upto this point, this project is complete with basic features of Instagram with mock data in graphQl.
 
 ## Roadmap
 
@@ -12,10 +12,14 @@ This project is not completed yet! I shall resume working on back-end once i am 
   - **Home Screen** - consists of components such as `Story List`, `Post List`
     - Each component is broken down to its sub component to be re-usable in entire app, wherever required
   - **Story Screen** - consists of list of all users stories scrollable
-- **Back-End** - Yet not started due to my credit card issue, once resolved, will develop back-end with AWS amplify
-  - **Authentication** - we will have authentication
-  - **Post Creation** - we will have real-time database post creation component, which is ready for integration
-  - **Story Creation** - we will implement Story creation component with back-end
+- **Back-End** - Completed Now! For this project, i used aws amplify
+  - **Authentication** - using awc amplify Auth and withAuthenticator which provides complete Login/Signup flow
+  - **Post Creation** - Did not develop
+  - **Story Creation** - Did not develop
+
+for database, i have used graphQl with aws amplify and populted mock data into database. This gives feel of certain basic features of the app.
+
+You can clone this repo and play with it.
 
 ## Screens
 
